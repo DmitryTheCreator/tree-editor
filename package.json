@@ -1,0 +1,36 @@
+{
+  "name": "tree-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "check-fsd": "npx steiger .\\src",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "@nabla/vite-plugin-eslint": "^2.0.5",
+    "@types/node": "^22.14.1",
+    "ag-grid-enterprise": "^33.2.4",
+    "ag-grid-vue3": "^33.2.4",
+    "eslint": "^9.25.1",
+    "eslint-plugin-vue": "^10.0.0",
+    "globals": "^16.0.0",
+    "normalize.css": "^8.0.1",
+    "prettier": "^3.5.3",
+    "sass": "^1.87.0",
+    "steiger": "^0.5.6",
+    "typescript-eslint": "^8.31.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1",
+    "vue-tsc": "^2.2.8"
+  }
+}
